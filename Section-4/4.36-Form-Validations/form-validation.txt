@@ -1,0 +1,14 @@
+Simple Validations
+- The 'required' attribute validates that an input is not empty
+- There are also type Validations. Try changing "type" from "text" to "email"
+
+Ex.
+<form action="/sign-in-url" method="post">
+  <label for="email">Email:</label>
+  <input id="email" type="email" required>
+  <label for="password">Password:</label>
+  <input id="password" type="password" required>
+  <button>Login</button>
+</form>
+
+- The required attribute means that the user cannot leave the field blank
