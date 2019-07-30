@@ -1,0 +1,25 @@
+Going to a web address
+
+www.udemy.com -> 23.235.47.175
+
+- A request is sent to the desired IP via the HTTP protocol
+- A request will find the fastest path possible to the desired server using the IP
+- This journey is usally not a direct one. It requires hopping from server to server until arrive at the correct server.
+
+
+Serve Responds
+
+www.udemy.com -> 23.235.47.175
+
+- The server then has to determine exacly what is being asked for and what to send back (/course)
+- Server then builds the correct, usually pulling this info from databases
+- The server responds with any combination of HTML, CSS, and JavaScript
+- And then...
+
+- Then the browser takes that combination of HTML, CSS, and JS to build a webpage for us to see.
+
+View Page Source
+- We can view underlyin web code on any webpage
+- In Chrome, rigt click and select "View Page Source"
+- Or select View > Developer > View Source
+- Or use the shortcut CMD + OPTION + U

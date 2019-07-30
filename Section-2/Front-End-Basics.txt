@@ -1,0 +1,38 @@
+Front End Basics
+
+Front End Vs. Back End
+- The Front End is the stuff that users see and interact with: HTML, CSS, and JS
+- The Back End is everything else: so many different choices!
+- Restaurant Analogy: The backend is everything that happens in the kitchen; the front end is what is plated and sent to the table.
+
+Front End
+HTML, CSS, and JS
+
+Back End
+Web Server, Database, Application, MongoDB, PHP, MySQL, IIS Web Server, Nginx, Apache, PostgreSQL, Python, Ruby on Rails, etc
+
+*Static Page Vs Dynamic Page*
+- Static pages stay pretty much the same
+- Dynamic pages like Google News with change pretty much everytime you see the page
+
+*HTML*
+- HyperText Markup Language
+- Defines the structure of a webpage
+    > "put an image here"
+    > "put a form here"
+- The "nouns" of a webpage
+- The skeleton of a webpage
+
+*CSS*
+- Cascading Style Sheets
+- Defines the style of HTML, must have HTML to use CSS
+    > "make all text purple"
+    > "give the first image a yellow border"
+- The adjective or skin of a webpage
+
+JavaScript
+- Adds logic and interactivity to a page
+    > "Do some math"
+    > "Change color when the user clicks"
+    > "Load new data from twitter"
+- The actions or verbs of a webpage

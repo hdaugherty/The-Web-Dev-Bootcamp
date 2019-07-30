@@ -1,0 +1,11 @@
+Attributes
+Adding additional information to tags
+<tag name="value"></tag>
+
+Images
+<img src="corgi.png">
+<p class="selected">woof woof</p>
+
+Links
+<a href="www.google.com">Link text</a>
+<link rel="stylesheet" type="text/css" href="style.css">

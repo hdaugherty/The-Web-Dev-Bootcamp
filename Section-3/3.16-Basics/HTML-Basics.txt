@@ -1,0 +1,10 @@
+Intro to HTML
+
+History of HTML
+- Created in 89/90
+- Allowed publishing and exchanging of scientific and technical documents
+- Allowed electronic linking of documents via hyperlinks
+
+The General Rule
+<tagname> Some Content </tagname>
+
