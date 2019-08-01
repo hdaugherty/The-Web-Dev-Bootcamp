@@ -7,35 +7,35 @@
   <body>
     <h1>Register</h1>
 
-    <form action="/send-form" method="post">
+    <form>
 
       <div class="fullname">
         <label for="firstname">First Name:</label>
-        <input type="text" name="fullname" placeholder="John" required>
+        <input type="text" id="firstname" name="firstname" placeholder="John" required>
 
         <label for="lastname">Last Name:</label>
-        <input type="text" name="fullname" placeholder="Smith" required>
+        <input type="text" id="lastname" name="lastname" placeholder="Smith" required>
       </div>
 
       <div class="gender">
-        <label for="male">Male </label>
+        <label for="male">Male</label>
         <input type="radio" name="gender" id="male" value="male">
 
-        <label for="female">Female </label>
+        <label for="female">Female</label>
         <input type="radio" name="gender" id="female" value="female">
 
-        <label for="other">Other </label>
+        <label for="other">Other</label>
         <input type="radio" name="gender" id="other" value="other">
       </div>
 
-      <div class="login">
+      <div class="login-info">
         <label for="email">Email:</label>
         <input type="email" name="login" id="email" placeholder="your email"
           required>
 
         <label for="pass">Password</label>
         <input type="password" name="login" id="pass" minlength="5"
-          maxlength="10" required>
+          maxlength="10" title="Password must be 5 to 10 characters" required>
       </div>
 
       <div class="birthday">
@@ -60,37 +60,37 @@
 
         <select name="day">
           <option value="">Day</option>
-          <option value="one">1</option>
-          <option value="two">2</option>
-          <option value="three">3</option>
-          <option value="four">4</option>
-          <option value="five">5</option>
-          <option value="six">6</option>
-          <option value="seven">7</option>
-          <option value="eight">8</option>
-          <option value="nine">9</option>
-          <option value="ten">10</option>
-          <option value="eleven">11</option>
-          <option value="twelve">12</option>
-          <option value="thirteen">13</option>
-          <option value="fourteen">14</option>
-          <option value="fifteen">15</option>
-          <option value="sixteen">16</option>
-          <option value="seventeen">17</option>
-          <option value="eighteen">18</option>
-          <option value="ninteen">19</option>
-          <option value="20">20</option>
-          <option value="twenty-one">21</option>
-          <option value="twenty-two">22</option>
-          <option value="twenty-three">23</option>
-          <option value="twenty-four">24</option>
-          <option value="twenty-five">25</option>
-          <option value="twenty-six">26</option>
-          <option value="twenty-seven">27</option>
-          <option value="twenty-eight">28</option>
-          <option value="twenty-nine">29</option>
-          <option value="thirty">30</option>
-          <option value="thirty-one">31</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+          <option>13</option>
+          <option>14</option>
+          <option>15</option>
+          <option>16</option>
+          <option>17</option>
+          <option>18</option>
+          <option>19</option>
+          <option>20</option>
+          <option>21</option>
+          <option>22</option>
+          <option>23</option>
+          <option>24</option>
+          <option>25</option>
+          <option>26</option>
+          <option>27</option>
+          <option>28</option>
+          <option>29</option>
+          <option>30</option>
+          <option>31</option>
         </select>
 
         <select name="year">
